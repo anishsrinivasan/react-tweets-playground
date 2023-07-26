@@ -21,7 +21,7 @@ export default function Home({
             Tweet / Xeet
           </h1>
           <p className="text-[#0d0b0b] text-[14px]">
-            This playground is used to display the embedded tweets or xeets
+            This playground is to display the embedded tweets or xeets
             using{" "}
             <a href="https://react-tweet.vercel.app/" target="_blank">
               <strong>react-tweets</strong>
