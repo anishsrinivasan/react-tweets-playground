@@ -34,9 +34,14 @@ export default function Home({
         </div>
         <div className="text-center mb-[20px]">
           <p className="text-[14px]">
-            Render any tweet by using tweetId in Query Params
+            Preview any tweet by using tweetId in Query Params
           </p>
-          <code className="text-[10px]">/?tweetId=1683920951807971329</code>
+          <a
+            target="_blank"
+            href="https://react-tweets-playground.vercel.app/?tweetId=1682978324375543808"
+          >
+            <code className="text-[10px]">/?tweetId=1682978324375543808</code>
+          </a>
         </div>
         <div className="flex justify-center items-center">
           <p className="mr-[8px] font-medium text-[18px]">Dark Theme : </p>
