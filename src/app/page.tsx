@@ -40,7 +40,7 @@ export default function Home({
             target="_blank"
             href="https://react-tweets-playground.vercel.app/?tweetId=1682978324375543808"
           >
-            <code className="text-[10px]">/?tweetId=1682978324375543808</code>
+            <code className="text-[12px]">/?tweetId=1682978324375543808</code>
           </a>
         </div>
         <div className="flex justify-center items-center">
@@ -49,7 +49,30 @@ export default function Home({
         </div>
       </div>
       <div className="mt-[20px]">
-        <p className="text-center text-[14px]">
+        <div className="flex justify-center items-center mb-[4px]">
+          <iframe
+            src="https://ghbtns.com/github-btn.html?user=anishsrinivasan&repo=react-tweets-playground&type=star&count=false&size=small"
+            frameBorder="0"
+            scrolling="0"
+            width="60"
+            height="30"
+            title="GitHub"
+            className="mt-[10px]"
+          ></iframe>
+          <p className="text-[14px]">
+            {" "}
+            ~
+            <a
+              className="ml-[2px]"
+              target="_blank"
+              href="https://github.com/anishsrinivasan/"
+            >
+              @anishsrinivasan
+            </a>
+          </p>
+        </div>
+
+        <p className="text-center text-[12px]">
           Built using NextJS, Tailwind, UI Components on Vercel.
         </p>
       </div>
