@@ -24,7 +24,7 @@ export default function Home({
             This playground is to display the embedded tweets or xeets
             using{" "}
             <a href="https://react-tweet.vercel.app/" target="_blank">
-              <strong>react-tweets</strong>
+              <strong>react-tweet</strong>
             </a>
             .
           </p>
@@ -38,7 +38,7 @@ export default function Home({
           </p>
           <a
             target="_blank"
-            href="https://react-tweets-playground.vercel.app/?tweetId=1682978324375543808"
+            href="https://react-tweet-playground.vercel.app/?tweetId=1682978324375543808"
           >
             <code className="text-[12px]">/?tweetId=1682978324375543808</code>
           </a>
